@@ -4,7 +4,9 @@ Launch mail app from react-native application
 
 ## Getting started
 
-`$ npm install react-native-mail-launcher --save`
+`$ npm install lukehali/react-native-mail-launcher --save`
+or
+`$ yarn add lukehali/react-native-mail-launcher`
 
 ### Mostly automatic installation
 
@@ -14,7 +16,7 @@ Launch mail app from react-native application
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
 
-- Add `import com.reactlibrary.RNMailLauncherPackage;` to the imports at the top of the file
+- Add `import com.maillauncher.RNMailLauncherPackage;` to the imports at the top of the file
 - Add `new RNMailLauncherPackage()` to the list returned by the `getPackages()` method
 
 2. Append the following lines to `android/settings.gradle`:
@@ -34,9 +36,9 @@ We do not need a native module for iOS
 ## Usage
 
 ```javascript
-import * as React from "react";
-import { View, Button } from "react-native";
-import launchMailApp from "react-native-mail-launcher";
+import * as React from 'react';
+import { View, Button } from 'react-native';
+import launchMailApp from 'react-native-mail-launcher';
 
 export default class Example extends React.Component {
   openMail = () => {

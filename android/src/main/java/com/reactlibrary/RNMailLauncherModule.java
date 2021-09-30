@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.maillauncher;
 
 import android.content.Intent;
 import com.facebook.react.bridge.ReactApplicationContext;

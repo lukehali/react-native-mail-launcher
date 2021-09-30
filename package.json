@@ -10,7 +10,7 @@
   "keywords": [
     "react-native"
   ],
-  "author": "Eric Bower",
+  "author": "Eric Bower, modified by Luke Haliburton",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.41.2"
